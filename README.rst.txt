@@ -26,7 +26,9 @@ Controls:
 Screenshots:
 
 .. image:: docs/example1.png
+
 .. image:: docs/example2.png
+
 .. image:: docs/example3.png
 
 
