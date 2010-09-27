@@ -49,6 +49,8 @@ bool Model3DS::load(const char *fileName)
 	char *file = strrchr(const_cast<char *>(fileName), '/');
 	if (file == NULL)
 		file = strrchr(const_cast<char *>(fileName), '\\');
+	if (file == NULL)
+		file = const_cast<char *>(fileName);
 	
 	cout << file << endl;
 	

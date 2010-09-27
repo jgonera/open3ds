@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1257872292 source:/home/julas/pag/3ds-loader/main.cpp
+	"engine.h"
+
+1258620926 /home/julas/pag/3ds-loader/3ds/3ds.h
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<list>
+	<algorithm>
+	<stdexcept>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	"types3ds.h"
+	<iostream>
+
+1260126532 source:/home/julas/pag/3ds-loader/3ds/3ds.cpp
+	"3ds.h"
+
+1256056353 source:/home/julas/pag/3ds-loader/3ds/geometry.cpp
+	"geometry.h"
+
+1256056338 /home/julas/pag/3ds-loader/3ds/geometry.h
+	<list>
+	<vector>
+	<cmath>
+
+1258618869 /home/julas/pag/3ds-loader/engine.h
+	<vector>
+	<SFML/Window.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	"3ds/3ds.h"
+
+1260126060 source:/home/julas/pag/3ds-loader/engine.cpp
+	"engine.h"
+
+1258619899 /home/julas/pag/3ds-loader/3ds/types3ds.h
+
+1285585633 source:/home/julas/open3ds/example/engine.cpp
+	"engine.h"
+
+1285584645 /home/julas/open3ds/example/engine.h
+	<vector>
+	<SFML/Window.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../3ds.h"
+
+1260398467 /home/julas/open3ds/3ds.h
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<list>
+	<algorithm>
+	<stdexcept>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	"types3ds.h"
+	<iostream>
+
+1260401168 /home/julas/open3ds/types3ds.h
+	<cmath>
+
+1257872292 source:/home/julas/open3ds/example/main.cpp
+	"engine.h"
+
+1285585817 source:/home/julas/open3ds/3ds.cpp
+	"3ds.h"
+
