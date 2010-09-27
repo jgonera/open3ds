@@ -38,7 +38,7 @@
 
 1258619899 /home/julas/pag/3ds-loader/3ds/types3ds.h
 
-1285585952 source:/home/julas/open3ds/example/engine.cpp
+1285587697 source:/home/julas/open3ds/example/engine.cpp
 	"engine.h"
 
 1285584645 /home/julas/open3ds/example/engine.h
@@ -48,7 +48,7 @@
 	<GL/glu.h>
 	"../3ds.h"
 
-1260398467 /home/julas/open3ds/3ds.h
+1285589464 /home/julas/open3ds/3ds.h
 	<cstdio>
 	<cstdlib>
 	<cstring>
@@ -67,6 +67,6 @@
 1257872292 source:/home/julas/open3ds/example/main.cpp
 	"engine.h"
 
-1285585817 source:/home/julas/open3ds/3ds.cpp
+1285589101 source:/home/julas/open3ds/3ds.cpp
 	"3ds.h"
 

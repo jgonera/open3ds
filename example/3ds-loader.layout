@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="3ds/3ds.cpp" open="1" top="0" tabpos="18">
-		<Cursor position="10237" topLine="0" />
+	<File name="../3ds.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="1122" topLine="750" />
 	</File>
-	<File name="3ds/3ds.h" open="1" top="0" tabpos="19">
-		<Cursor position="608" topLine="66" />
+	<File name="../3ds.h" open="1" top="1" tabpos="3">
+		<Cursor position="2799" topLine="108" />
 	</File>
-	<File name="3ds/types3ds.h" open="1" top="0" tabpos="17">
-		<Cursor position="1686" topLine="0" />
+	<File name="engine.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="840" topLine="30" />
 	</File>
-	<File name="engine.cpp" open="1" top="1" tabpos="16">
-		<Cursor position="460" topLine="35" />
+	<File name="engine.h" open="1" top="0" tabpos="1">
+		<Cursor position="135" topLine="12" />
 	</File>
-	<File name="engine.h" open="1" top="0" tabpos="15">
-		<Cursor position="18" topLine="0" />
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="14">
+	<File name="main.cpp" open="0" top="0" tabpos="14">
 		<Cursor position="21" topLine="0" />
+	</File>
+	<File name="../types3ds.h" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

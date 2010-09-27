@@ -46,18 +46,23 @@ Model3DS::~Model3DS()
 
 bool Model3DS::load(const char *fileName)
 {
+	path = NULL;
 	char *file = strrchr(const_cast<char *>(fileName), '/');
 	if (file == NULL)
 		file = strrchr(const_cast<char *>(fileName), '\\');
-	if (file == NULL)
+	if (file == NULL) {
 		file = const_cast<char *>(fileName);
+		path = const_cast<char *>("");
+	}
 	
 	cout << file << endl;
 	
-	path = new char[strlen(fileName)-strlen(file)+2];
-	
-	strncpy(path, fileName, strlen(fileName)-strlen(file)+1);
-	path[strlen(fileName)-strlen(file)+1] = '\0';
+	if (path == NULL) {
+		path = new char[strlen(fileName)-strlen(file)+2];
+		
+		strncpy(path, fileName, strlen(fileName)-strlen(file)+1);
+		path[strlen(fileName)-strlen(file)+1] = '\0';
+	}
 	
 	cout << path << endl;
 
@@ -653,7 +658,7 @@ void Model3DS::parseMeshinfo()
 				}
 				
 				for (int i=0; i<object->numVertices; i+=1) {
-					cout << object->vertices[i].x << " " << object->vertices[i].y << " " << object->vertices[i].z << endl;
+					// cout << object->vertices[i].x << " " << object->vertices[i].y << " " << object->vertices[i].z << endl;
 				}
 				
 				cout << object->u.x << " " << object->v.x << " " << object->w.x << " " << object->origin.x << endl;

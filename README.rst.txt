@@ -4,6 +4,9 @@ Open3DS
 Open3DS is a simple library for parsing and displaying 3DS models.
 It is written in C++ using OpenGL and SFML (http://www.sfml-dev.org/).
 
+The code is probably quite buggy. It's more for learning purposes than anything
+else.
+
 
 Example
 -------
@@ -18,6 +21,13 @@ Controls:
 * X, Y, Z - select the axis of movement
 * Right/middle mouse button - move camera
 * Scroll wheel - zoom
+* A - show/hide axes
+
+Screenshots:
+
+.. image:: docs/example1.png
+.. image:: docs/example2.png
+.. image:: docs/example3.png
 
 
 License
