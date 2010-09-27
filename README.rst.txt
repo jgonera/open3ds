@@ -25,11 +25,11 @@ Controls:
 
 Screenshots:
 
-.. image:: http://github.com/jgonera/open3ds/blob/master/docs/example1.png
+.. image:: http://github.com/jgonera/open3ds/raw/master/docs/example1.png
 
-.. image:: http://github.com/jgonera/open3ds/blob/master/docs/example2.png
+.. image:: http://github.com/jgonera/open3ds/raw/master/docs/example2.png
 
-.. image:: http://github.com/jgonera/open3ds/blob/master/docs/example3.png
+.. image:: http://github.com/jgonera/open3ds/raw/master/docs/example3.png
 
 
 License
