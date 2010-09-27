@@ -53,7 +53,7 @@ void Engine::init()
 	clock = new sf::Clock;
 
 	model = new Model3DS(cfg::modelName);
-	if (!model->load("body.3ds")) {
+	if (!model->load("test.3ds")) {
 		cout << "Can't find model file!" << endl;
 		exit(1);
 	}
