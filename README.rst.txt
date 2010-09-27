@@ -25,11 +25,11 @@ Controls:
 
 Screenshots:
 
-.. image:: docs/example1.png
+.. image:: HEAD/docs/example1.png
 
-.. image:: docs/example2.png
+.. image:: HEAD/docs/example2.png
 
-.. image:: docs/example3.png
+.. image:: HEAD/docs/example3.png
 
 
 License
